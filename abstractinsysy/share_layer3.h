@@ -3,6 +3,7 @@
 #include "share_layer2.h"
 
  struct layer3_share_domain;
+ typedef struct layer3_share_domain layer3_share_domain;
  typedef struct layer3_share_domain  layer3_share_domain_t;
 
   typedef struct layer3_share_opt {
@@ -16,6 +17,6 @@
 	  layer3_share_opt_t opt;
 	  layer3_share_opt_t metaOpt;   
   };
-extern void initL3DomainAndRetOpt(struct layer3_share_domain *domain);
+
 extern struct layer3_share_domain* createLayer3ShareDomain();
 #endif

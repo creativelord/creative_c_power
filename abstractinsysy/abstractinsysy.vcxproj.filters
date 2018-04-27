@@ -41,5 +41,8 @@
     <ClInclude Include="oocp.h">
       <Filter>inc</Filter>
     </ClInclude>
+    <ClInclude Include="constructors.h">
+      <Filter>inc</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -121,6 +121,7 @@
     <ClCompile Include="share_layer3.c" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="constructors.h" />
     <ClInclude Include="oocp.h" />
     <ClInclude Include="share.h" />
     <ClInclude Include="share_layer2.h" />
