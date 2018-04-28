@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <stdlib.h>
 #include "share_layer3.h"
 #include "share_layer2.h"
 #include "oocp.h"

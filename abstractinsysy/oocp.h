@@ -11,7 +11,7 @@ cthis->parent.opt.fun_Name = cthis->opt.fun_Name
 //加载本类方法
 #define DOMAIN_THIS_METHOD_LOAD(domainName,funName)\
 cthis->opt.funName=##domainName##_##funName;\
-cthis->metaOpt.funName = ##domainName##_##funName;
+cthis->metaOpt.funName=##domainName##_##funName;
 
 //父类方法调用
 #define DOMAIN_SUPER_METHOD_CALL(funname,...)\
